@@ -1,0 +1,13 @@
+public class control_if01 {
+
+	public static void main(String[] args) {
+		int score = 99;
+		
+		if(score >= 60) 
+		{
+			System.out.println("잘했습니다");
+		}
+		System.out.println("수고했습니다");
+	}
+
+}
