@@ -1,0 +1,22 @@
+
+public class triple {
+
+	public static void main(String[] args) {
+		
+		int score1 = 75;
+		char grade;			//char = 한 문자 사용할 때
+		
+		grade = (score1 >= 60)?'P':'F';
+		System.out.println(grade);
+	
+		int score2 = 75;
+		String sg;				//String = 여러 문자 사용할 때
+			
+		sg = (score2 >= 60)?"Pass":"Fail";
+		System.out.println(sg);
+			
+
+  }
+
+
+}
