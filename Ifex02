@@ -1,17 +1,23 @@
 public class Ifex02 {
 	public static void main(String[] args) {
+		
 		int a = 6;
 		
-		if(a%2==0) {	// true
-			System.out.println(a+"는 2의 배수");		// 실행
-			
-			if(a%3==0) {	// true
-				System.out.println(a+"는 3의 배수");	// 실행
-			}
-			
-			if(a%4==0) {	// false
-				System.out.println(a+"는 4의 배수");
-			}
+		if(a%2==0) {	
+			System.out.println(a+"는 2의 배수");
 		}
+			
+		else if(a%3==0) {	
+			System.out.println(a+"는 3의 배수");	
+		}
+			
+		else if(a%4==0) {	
+			System.out.println(a+"는 4의 배수");
+		}
+		
+		else {
+			System.out.println("2의 배수도 3의 배수도 4의 배수도 아닌 수");
+		}
+		
 	}
 }
