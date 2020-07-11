@@ -1,0 +1,15 @@
+
+ break point 설정
+
+ F11	디버깅
+
+ F5	메소드 안으로	함수 >> F5
+
+ F6	다음 단계	System.out.println() >> F6
+
+ terminate	디버깅 종료
+
+
+
+ Window-Show  view-other-debug-variables 창
+
