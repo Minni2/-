@@ -1,0 +1,13 @@
+public class control_if01 {
+
+	public static void main(String[] args) {
+		int money = 1000;
+		int age = 25;
+		if (age <= 19) {
+			money = 500;
+		}
+		
+		System.out.println("입장료는"+money+"입니다");
+	}
+
+}
